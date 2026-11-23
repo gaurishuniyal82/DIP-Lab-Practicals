@@ -16,9 +16,6 @@ plt.axis('off')
 plt.show()
 
 
-# Add slight salt-and-pepper noise to a copy just to show Median filter clearly if needed
-# (Here we apply all filters to the clean original image for uniform comparison)
-
 # 1. Mean Filter (5x5 averaging)
 mean_img = cv2.blur(img, (5, 5))
 
