@@ -1,3 +1,8 @@
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import heapq
+
 getcontext().prec = 50  # High precision for longer strings
 
 def get_probability_ranges(text):
